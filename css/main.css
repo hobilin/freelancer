@@ -310,6 +310,7 @@ header p .sub3:hover {
 	display: inline-block;
 }
 
+/*dándole características a la clase download dentro del id third-box (el botón download theme de la tercera sección)*/
 #third-box .download {
 	width: 220px;
 	height: auto;
@@ -324,6 +325,7 @@ header p .sub3:hover {
 	line-height: 30px;
 }
 
+/*dándole características al icon que se encuentra dentro del div con clase downlad (el icon dentro del botón download theme)*/
 .icon-down {
 	font-size: 20px;
 	margin: 0;
@@ -331,17 +333,20 @@ header p .sub3:hover {
 	padding: 0;
 }
 
+/*Estableciendo que cuando el mouse pase por encima de el elemento con clase download (botón download theme) pase lo siguiente*/
 #third-box .download:hover {
 	background-color: #fff;
 	border: 2px solid #18BC9C;
 	color: #18BC9C;
 }
 
+/*dándole caraccterísticas a la caja de la 4ta sección*/
 #forth-box {
 	width: 100%;
 	text-align: center;
 }
 
+/*dándole características al id contact (título) de la 4ta sección*/
 #forth-box #contact {
 	color: #000;
 	font-family: 'Montserrat', sans-serif;
@@ -382,6 +387,7 @@ header p .sub3:hover {
 	margin-left: 5px;
 }
 
+/*dándole característocas a todos los input que en su atributo type tengan como valor text*/
 input[type=text]{
 	width: 730px;
 	font-family: 'Lato', sans-serif;
@@ -393,11 +399,12 @@ input[type=text]{
 	border-bottom: 1px solid rgba(0, 0, 0, 0.09)
 }
 
+/*dandole una característica especificamente al input con id msg*/
 input#msg {
 	padding-bottom: 185px;
 }
 
-
+/*dándole característocas a todos los input que en su atributo type tengan como valor submit*/
 input[type=submit] {
 	width: 80px;
 	height: 50px;
@@ -415,19 +422,23 @@ input[type=submit] {
 	margin-bottom: 120px;
 }
 
+/*estableciendo que cuando el mouse pase por encima del input con class button se realice lo siguiente*/
 input.button:hover {
 	background-color: #128F76;
 }
 
+/*dándole caraccterísticas a la caja de la 5ta sección*/
 #fifth-box{
 	width: 100%;
 	background-color: #2C3E50;
 }
 
+/*dándole características a todos los div dentro del id fifth-box*/
 #fifth-box div {
 	margin-top: 20px;
 }
 
+/*dándole características a la clase big-txt dentro del id fifth-box (título del primer cuadrado del footer)*/
 #fifth-box .big-txt {
 	color: #fff;
 	font-family: 'Montserrat', sans-serif;
@@ -436,6 +447,7 @@ input.button:hover {
 	line-height: 34px;
 }
 
+/*dándole características a la clase small-txt dentro del id fifth-box (párrafo del primer cuadro del footer)*/
 #fifth-box .small-txt {
 	color: #fff;
 	font-family: 'Lato', sans-serif;
@@ -443,6 +455,7 @@ input.button:hover {
 	line-height: 30px;
 }
 
+/*dándole características al primer cuadro de la 5ta sección*/
 #location {
 	width: 230px;
 	text-align: center;
@@ -452,6 +465,7 @@ input.button:hover {
 	display: inline-block;
 }
 
+/*dándole características al segundo cuadro con id websites del footer*/
 #websites {
 	width: 300px;
 	text-align: center;
@@ -461,10 +475,12 @@ input.button:hover {
 	display: inline-block;
 }
 
+/*dándole características a todos los párrafos del segundo cuadro con id websites del footer*/
 #websites p {
 	display: inline-block;
 }
 
+/*dándole características a todos los elementos con clase .fa dentro del id websites del footer (iconos)*/
 #websites .fa {
 	color: #fff;
 	font-size: 20px;
@@ -475,57 +491,67 @@ input.button:hover {
 	margin-left: 1px;
 }
 
+/*dándole características al elemento de clase fa-facebook (icono facebook)*/
 #websites .fa.fa-facebook {
 	padding: 15px 20px;
 }
 
+/*estableciendo que cuando el mouse pase por sobre elementos con clase fa-facebook ocurra lo siguiente*/
 #websites .fa.fa-facebook:hover {
 	color: #18BC9C;
 	background-color: #fff;
 	cursor: pointer;
 }
 
+/*dándole características al elemento de clase fa-google-plus (icono google plus)*/
 #websites .fa.fa-google-plus {
 	padding: 15px 13px;
 }
 
+/*estableciendo que cuando el mouse pase por sobre elementos con clase fa-google-plus ocurra lo siguiente*/
 #websites .fa.fa-google-plus:hover {
 	color: #18BC9C;
 	background-color: #fff;
 	cursor: pointer;
 }
 
+/*dándole características al elemento de clase fa-twitter (icono twitter)*/
 #websites .fa.fa-twitter {
 	padding: 15px 15px;
 }
 
+/*estableciendo que cuando el mouse pase por sobre elementos con clase fa-twitter ocurra lo siguiente*/
 #websites .fa.fa-twitter:hover {
 	color: #18BC9C;
 	background-color: #fff;
 	cursor: pointer;
 }
 
+/*dándole características al elemento de clase fa-linkedin (icono linkedin)*/
 #websites .fa.fa-linkedin {
 	padding: 15px 15px;
 }
 
+/*estableciendo que cuando el mouse pase por sobre elementos con clase fa-linkedin ocurra lo siguiente*/
 #websites .fa.fa-linkedin:hover {
 	color: #18BC9C;
 	background-color: #fff;
 	cursor: pointer;
 }
 
+/*dándole características al elemento de clase fa-dribbble (icono dribble)*/
 #websites .fa.fa-dribbble {
 	padding: 15px 15px;
 }
 
+/*estableciendo que cuando el mouse pase por sobre elementos con clase fa-dribbble ocurra lo siguiente*/
 #websites .fa.fa-dribbble:hover {
 	color: #18BC9C;
 	background-color: #fff;
 	cursor: pointer;
 }
 
-
+/*dándole características al tercer cuadro con id source del footer*/
 #source {
 	width: 330px;
 	text-align: center;
@@ -534,15 +560,18 @@ input.button:hover {
 	display: inline-block;
 }
 
+/*dándole características al id link-source (todos los links dentro del tercer cuadro del footer)*/
 #link-source {
 	text-decoration: none;
 	color: #18BC9C;
 }
 
+/*estableciendo que cuando el mouse pase por encima del id link-source (links) del tercer cuadro del footer, ocurra lo siguiente*/
 #link-source:hover {
 	text-decoration: underline #18BC9C;
 }
 
+/*dándole características al id copyright del footer (párrafo que posee el copyright statement)*/
 #copyright {
 	color: #fff;
 	font-family: 'Lato', sans-serif;
